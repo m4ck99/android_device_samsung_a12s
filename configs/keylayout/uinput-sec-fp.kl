@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,20 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-## Inherit from the common tree
-include device/samsung/exynos850-common/BoardConfigCommon.mk
-
-DEVICE_PATH := device/samsung/m12
-
-## APEX image
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-
-## Display
-TARGET_SCREEN_DENSITY := 300
-
-## Fingerprint
-TARGET_SEC_FP_HAS_FINGERPRINT_GESTURES := true
-
-## Kernel
-TARGET_KERNEL_CONFIG := exynos850-m12nsxx_defconfig
+key 108   SYSTEM_NAVIGATION_DOWN
+key 103   SYSTEM_NAVIGATION_UP
