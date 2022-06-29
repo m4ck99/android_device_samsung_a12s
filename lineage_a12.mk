@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Inherit from m12 device
-$(call inherit-product, device/samsung/m12/device.mk)
+$(call inherit-product, device/samsung/a12/device.mk)
 
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 1600
@@ -32,17 +32,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_m12
-PRODUCT_DEVICE := m12
+PRODUCT_NAME := lineage_a12
+PRODUCT_DEVICE := a12
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-M127F
+PRODUCT_MODEL := SM-A127F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 ## Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=m12nsxx \
-    PRIVATE_BUILD_DESC="m12nsxx-user 11 RP1A.200720.012 M127FXXS3AVB2 release-keys"
+    PRODUCT_NAME=a12nsxx \
+    PRIVATE_BUILD_DESC="m12nsxx-user 11 RP1A.200720.012 A127FXXU5AVC5 release-keys"
 
-BUILD_FINGERPRINT := samsung/m12nsxx/m12:11/RP1A.200720.012/M127FXXS3AVB2:user/release-keys
+BUILD_FINGERPRINT := samsung/a12nsxx/a12:11/RP1A.200720.012/A127FXXU5AVC5:user/release-keys

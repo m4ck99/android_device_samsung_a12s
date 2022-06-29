@@ -16,7 +16,7 @@
 ## Inherit from the common tree
 include device/samsung/exynos850-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/m12
+DEVICE_PATH := device/samsung/a12
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
