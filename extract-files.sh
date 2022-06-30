@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=m12
+export DEVICE=a12s
 export DEVICE_COMMON=exynos850-common
 export VENDOR=samsung
 

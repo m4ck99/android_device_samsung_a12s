@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Inherit from m12 device
-$(call inherit-product, device/samsung/a12/device.mk)
+$(call inherit-product, device/samsung/a12s/device.mk)
 
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 1600
@@ -32,8 +32,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_a12
-PRODUCT_DEVICE := a12
+PRODUCT_NAME := lineage_a12s
+PRODUCT_DEVICE := a12s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A127F
 PRODUCT_MANUFACTURER := samsung
