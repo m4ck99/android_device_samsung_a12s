@@ -43,6 +43,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 ## Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=a12nsxx \
-    PRIVATE_BUILD_DESC="m12nsxx-user 11 RP1A.200720.012 A127FXXU5AVC5 release-keys"
+    PRIVATE_BUILD_DESC="a12nsxx-user 11 RP1A.200720.012 A127FXXU5AVC5 release-keys"
 
 BUILD_FINGERPRINT := samsung/a12nsxx/a12:11/RP1A.200720.012/A127FXXU5AVC5:user/release-keys
